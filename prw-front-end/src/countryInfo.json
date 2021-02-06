@@ -205,78 +205,97 @@
         "city": "Bejing"
     },
     {
+        "id": "41",
         "country": "Christmas Island",
         "city": "Flying Fish Cove"
     },
     {
+        "id": "42",
         "country": "Cocos (Keeling) Islands",
         "city": "West Island"
     },
     {
+        "id": "43",
         "country": "Colombia",
         "city": "Bogota"
     },
     {
+        "id": "44",
         "country": "Comoros",
         "city": "Moroni"
     },
     {
+        "id": "45",
         "country": "Congo",
         "city": "Brazzaville"
     },
     {
+        "id": "46",
         "country": "Cook Islands",
         "city": "Avarua"
     },
     {
+        "id": "47",
         "country": "Costa Rica",
-        "city": "San Jos"
+        "city": "San Jose"
     },
     {
+        "id": "48",
         "country": "Croatia",
         "city": "Zagreb"
     },
     {
+        "id": "49",
         "country": "Cuba",
-        "city": "La Habana"
+        "city": "Havana"
     },
     {
+        "id": "50",
         "country": "Cyprus",
         "city": "Nicosia"
     },
     {
+        "id": "51",
         "country": "Czech Republic",
-        "city": "Praha"
+        "city": "Prague"
     },
     {
+        "id": "52",
         "country": "Denmark",
         "city": "Copenhagen"
     },
     {
+        "id": "53",
         "country": "Djibouti",
         "city": "Djibouti"
     },
     {
+        "id": "54",
         "country": "Dominica",
         "city": "Roseau"
     },
     {
+        "id": "55",
         "country": "Dominican Republic",
-        "city": "Santo Domingo de Guzm"
+        "city": "Santo Domingo"
     },
     {
+        "id": "56",
         "country": "East Timor",
         "city": "Dili"
     },
     {
+        "id": "57",
         "country": "Ecuador",
         "city": "Quito"
     },
     {
+        "id": "58",
         "country": "Egypt",
         "city": "Cairo"
     },
     {
+        "id": "59",
         "country": "El Salvador",
         "city": "San Salvador"
     },
@@ -298,7 +317,7 @@
     },
     {
         "country": "Ethiopia",
-        "city": "Addis Abeba"
+        "city": "Addis Ababa"
     },
     {
         "country": "Falkland Islands",
@@ -314,7 +333,7 @@
     },
     {
         "country": "Finland",
-        "city": "Helsinki [Helsingfors]"
+        "city": "Helsinki"
     },
     {
         "country": "France",
@@ -327,10 +346,6 @@
     {
         "country": "French Polynesia",
         "city": "Papeete"
-    },
-    {
-        "country": "French Southern territories",
-        "city": null
     },
     {
         "country": "Gabon",
@@ -395,10 +410,6 @@
     {
         "country": "Haiti",
         "city": "Port-au-Prince"
-    },
-    {
-        "country": "Heard Island and McDonald Islands",
-        "city": null
     },
     {
         "country": "Holy See (Vatican City State)",
@@ -829,10 +840,6 @@
         "city": "Pretoria"
     },
     {
-        "country": "South Georgia and the South Sandwich Islands",
-        "city": null
-    },
-    {
         "country": "South Korea",
         "city": "Seoul"
     },
@@ -845,8 +852,8 @@
         "city": "Madrid"
     },
     {
-        "country": "SriLanka",
-        "city": null
+        "country": "Sri Lanka",
+        "city": "Sri Jayawardenepura Kotte"
     },
     {
         "country": "Sudan",
@@ -949,16 +956,12 @@
         "city": "Washington"
     },
     {
-        "country": "United States Minor Outlying Islands",
-        "city": null
-    },
-    {
         "country": "Uruguay",
         "city": "Montevideo"
     },
     {
         "country": "Uzbekistan",
-        "city": "Toskent"
+        "city": "Taskent"
     },
     {
         "country": "Vanuatu",
