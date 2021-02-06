@@ -61,10 +61,12 @@ const About = () => {
         <h6> Coding Efforts</h6>
         <ul className="sidebar-about-ul">
         <li className="sidebar-about-li"><span style={style} onClick={() => openInNewTab('http://www.github.com/paulreyneveld')}> GitHub </span></li>
-
         <li className="sidebar-about-li"><span style={style} onClick={() => openInNewTab('http://www.teamtreehouse.com/paulreyneveld')}> Treehouse Profile </span></li>
-
         <li className="sidebar-about-li"><span style={style} onClick={() => openInNewTab('http://www.freecodecamp.org/paulreyneveld')}> freeCodeAcademy Profile </span></li>
+        </ul>
+        <h6>Resume</h6>
+        <ul className="sidebar-about-ul">
+        <li className="sidebar-about-li"><a href={process.env.PUBLIC_URL + '/resume.pdf'}>Resume</a></li>
         </ul>
         </Col>
     </Row>
