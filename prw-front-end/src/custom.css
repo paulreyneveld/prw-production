@@ -1,0 +1,50 @@
+.jumbotron {
+    background-image: url(./images/resize1.jpg);
+    background-position: center center;
+    background-size: contain;
+    color: #e0e0e0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.col {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.gutterfix {
+    padding-left: 2%;
+    padding-right: 0%;
+}
+
+.copyright {
+    padding: 1.5em 0 0 1em;
+}
+
+footer {
+    background-color: #343a40;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    color: #e0e0e0;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem; 
+    margin-top: 4em;
+    font-size: 0.8em;
+}
+
+.sidebar-ul {
+    padding-left: 5%;
+    font-size: 0.8em;
+}
+
+.sidebar-li {
+    list-style-type: none;
+    padding-bottom: 7%;
+}
+
+.sidebar-about-li {
+    list-style-type: none;
+    padding-bottom: 7%;
+}
+
