@@ -9,8 +9,7 @@ const Home = () => {
 
     const randomComponent = () => {
         const randomNum = Math.floor(Math.random() * 3)
-        console.log(randomNum)
-        switch(2) {
+        switch(1) {
             case 0:
                 return <WeatherAPI />
             case 1:

@@ -51,7 +51,9 @@ const CapitalsQuiz = () => {
         {
             countryList.map((country, index) => 
                 <>
-                <Button style={{marginBottom: 10}}variant="outline-secondary" key={index} onClick={() => handleButtonClick(country.city)}>{country.city}</Button><br />
+                <span key={index}>
+                <Button style={{marginBottom: 10}}variant="outline-secondary" onClick={() => handleButtonClick(country.city)}>{country.city}</Button><br />
+                </span>
                 </>
             )
         }

@@ -1,179 +1,208 @@
 [
     {
+        "id": "0",
         "country": "Afghanistan",
         "city": "Kabul"
     },
     {
+        "id": "1",
         "country": "Albania",
         "city": "Tirana"
     },
     {
+        "id": "2",
         "country": "Algeria",
-        "city": "Alger"
+        "city": "Algiers"
     },
     {
+        "id": "3",
         "country": "American Samoa",
-        "city": "Fagatogo"
+        "city": "Pago Pago"
     },
     {
+        "id": "4",
         "country": "Andorra",
         "city": "Andorra la Vella"
     },
     {
+        "id": "5",
         "country": "Angola",
         "city": "Luanda"
     },
     {
+        "id": "6",
         "country": "Anguilla",
         "city": "The Valley"
     },
     {
-        "country": "Antarctica",
-        "city": null
-    },
-    {
+        "id": "7",
         "country": "Antigua and Barbuda",
         "city": "Saint John's"
     },
     {
+        "id": "8",
         "country": "Argentina",
         "city": "Buenos Aires"
     },
     {
+        "id": "9",
         "country": "Armenia",
         "city": "Yerevan"
     },
     {
+        "id": "10",
         "country": "Aruba",
         "city": "Oranjestad"
     },
     {
+        "id": "11",
         "country": "Australia",
         "city": "Canberra"
     },
     {
+        "id": "12",
         "country": "Austria",
-        "city": "Wien"
+        "city": "Vienna"
     },
     {
+        "id": "13",
         "country": "Azerbaijan",
         "city": "Baku"
     },
     {
+        "id": "14",
         "country": "Bahamas",
         "city": "Nassau"
     },
     {
+        "id": "15",
         "country": "Bahrain",
-        "city": "al-Manama"
+        "city": "Manama"
     },
     {
+        "id": "16",
         "country": "Bangladesh",
         "city": "Dhaka"
     },
     {
+        "id": "17",
         "country": "Barbados",
         "city": "Bridgetown"
     },
     {
+        "id": "18",
         "country": "Belarus",
         "city": "Minsk"
     },
     {
+        "id": "19",
         "country": "Belgium",
-        "city": "Bruxelles [Brussel]"
+        "city": "Brussels"
     },
     {
+        "id": "20",
         "country": "Belize",
         "city": "Belmopan"
     },
     {
+        "id": "21",
         "country": "Benin",
         "city": "Porto-Novo"
     },
     {
+        "id": "22",
         "country": "Bermuda",
         "city": "Hamilton"
     },
     {
+        "id": "23",
         "country": "Bhutan",
         "city": "Thimphu"
     },
     {
+        "id": "24",
         "country": "Bolivia",
         "city": "La Paz"
     },
     {
+        "id": "25",
         "country": "Bosnia and Herzegovina",
         "city": "Sarajevo"
     },
     {
+        "id": "26",
         "country": "Botswana",
         "city": "Gaborone"
     },
     {
-        "country": "Bouvet Island",
-        "city": null
-    },
-    {
+        "id": "27",
         "country": "Brazil",
         "city": "Brasília"
     },
     {
-        "country": "British Indian Ocean Territory",
-        "city": null
-    },
-    {
+        "id": "28",
         "country": "Brunei",
         "city": "Bandar Seri Begawan"
     },
     {
+        "id": "29",
         "country": "Bulgaria",
         "city": "Sofia"
     },
     {
+        "id": "30",
         "country": "Burkina Faso",
         "city": "Ouagadougou"
     },
     {
+        "id": "31",
         "country": "Burundi",
         "city": "Bujumbura"
     },
     {
+        "id": "32",
         "country": "Cambodia",
         "city": "Phnom Penh"
     },
     {
+        "id": "33",
         "country": "Cameroon",
         "city": "Yaound"
     },
     {
+        "id": "34",
         "country": "Canada",
         "city": "Ottawa"
     },
     {
+        "id": "35",
         "country": "Cape Verde",
         "city": "Praia"
     },
     {
+        "id": "36",
         "country": "Cayman Islands",
         "city": "George Town"
     },
     {
+        "id": "37",
         "country": "Central African Republic",
         "city": "Bangui"
     },
     {
+        "id": "38",
         "country": "Chad",
-        "city": "N'Djam"
+        "city": "N'Djamena"
     },
     {
+        "id": "39",
         "country": "Chile",
         "city": "Santiago de Chile"
     },
     {
+        "id": "40",
         "country": "China",
-        "city": "Peking"
+        "city": "Bejing"
     },
     {
         "country": "Christmas Island",
