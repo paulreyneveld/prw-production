@@ -3,6 +3,7 @@ import { Col, Row, Image } from 'react-bootstrap'
 import groceryImage from '../images/grocery-app-screen.png'
 import quizAppImage from '../images/quiz-app-screen.png'
 import coursesAppImage from '../images/courses-app-screen.png'
+import wheelerImage from '../images/wheeler-screen.png'
 
 const Projects = () => {
 
@@ -48,6 +49,16 @@ const Projects = () => {
             before the user runs out of chances. It's written in vanilla JS without the help of any frontend library.</p>
             <p><span style={style} onClick={() => openInNewTab('https://github.com/paulreyneveld/THProj4')}>Repo</span></p>
         </Col>
+        </Row>
+        <Row>
+        <Col className="gutterfix">
+        <span style={style} onClick={() => openInNewTab('http://www.wheelerswcd.org/')}><Image style={{paddingBottom: 10}} src={wheelerImage} /></span>
+        <p>This is a very old project and was put together cerca 2009. I can't say that I stand by the code at this point as I doubt
+        the Drupal install that it's running on has been updated since it was put together in the first place. The project was built on a LAMP
+        stack in concert with a former colleague. Given its age, I unfortunately don't have a git repo associated with it.</p>
+        </Col>
+        <Col></Col>
+        <Col></Col>
         </Row>
         </>
     )
