@@ -46,12 +46,12 @@ const CapitalsQuiz = () => {
 
     return (
         <>
-        <h5>Capital Quiz</h5>
+        <h6>World Capital's Quiz</h6>
         <p>What is the capital of {answer.country}?</p>
         {
             countryList.map((country, index) => 
                 <>
-                <Button variant="outline-secondary" key={index} onClick={() => handleButtonClick(country.city)}>{country.city}</Button><br />
+                <Button style={{marginBottom: 10}}variant="outline-secondary" key={index} onClick={() => handleButtonClick(country.city)}>{country.city}</Button><br />
                 </>
             )
         }

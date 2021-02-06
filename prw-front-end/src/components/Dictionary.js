@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import Button from 'react-bootstrap/Button'
 
 
 const Dictionary = () => {
@@ -23,8 +24,6 @@ const Dictionary = () => {
             .catch(error => console.log(error))
 
     }
-    
-    console.log(definition)
 
     return (
         <>
@@ -32,8 +31,8 @@ const Dictionary = () => {
             <label>Search definition:</label>
             <p>(courtesy of Merriam-Webster dictionary API)</p>
             <br />
-            <input type="text" value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} />
-            <button>Submit</button>
+            <input type="text" value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} style={{marginRight: 5}} />
+            <Button variant="outline-secondary">Submit</Button>
         </form>
         {definition.map((entry, index) => <li key={index}>{entry}</li>)}
         </>
