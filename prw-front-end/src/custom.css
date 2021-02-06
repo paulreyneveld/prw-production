@@ -53,3 +53,6 @@ footer {
     padding-bottom: 3%;
 }
 
+span {
+    cursor: pointer;
+}
