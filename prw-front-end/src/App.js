@@ -13,12 +13,9 @@ import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import CapitalsQuiz from './components/CapitalsQuiz'
-import Dictionary from './components/Dictionary'
-import BlogPosts from './components/BlogPosts'
+
 import Resources from './components/Resources'
 import Contact from './components/Contact'
-import Login from './components/Login'
 
 const App = () => {
 
@@ -54,21 +51,7 @@ const App = () => {
             <Projects />
             <Footer />
         </Route>
-        <Route path="/countryapi">
-            <Header />
-            <CapitalsQuiz countryData={countryData} />
-            <Footer />
-        </Route>
-        <Route path="/dictionary">
-            <Header />
-            <Dictionary />
-            <Footer />
-        </Route>
-        <Route path="/blog">
-            <Header />
-            <BlogPosts />
-            <Footer />
-        </Route>
+
         <Route path="/resources">
             <Header />
             <Resources />
@@ -76,9 +59,6 @@ const App = () => {
         </Route>
         <Route path="/contact">
             <Contact />
-        </Route>
-        <Route path="/login">
-            <Login />
         </Route>
     </Switch>
     </Router>
