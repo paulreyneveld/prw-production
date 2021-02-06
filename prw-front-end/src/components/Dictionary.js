@@ -15,10 +15,8 @@ const Dictionary = () => {
     
     const queryAPI = (event) => {
         event.preventDefault()
-        console.log(searchTerm)
         axios.get(API_URL)
             .then(response => {
-                console.log(response.data)
                 setDefinition(response.data[0].shortdef)
             })
             .catch(error => console.log(error))
@@ -31,7 +29,13 @@ const Dictionary = () => {
                 definition.map((entry, index) => <li key={index}>{entry}</li>)
             )
         }
-        return (<p></p>)
+        if (definition && definition.length === 1) {
+            return (<li>{definition}</li>)
+        }
+        if (!definition) {
+            return (<p>No definition found.</p>)
+        }
+        return (<p>Search for a word. . . .</p>)
     }
 
     return (
