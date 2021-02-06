@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import countryInfo from '../countryInfo.json'
+import Button from 'react-bootstrap/Button'
 
 const CapitalsQuiz = () => {
     
@@ -25,20 +26,8 @@ const CapitalsQuiz = () => {
         return countryList
     }
 
-    // const status = () => {
-    //     if (veracity) {
-    //         return (
-    //         <>
-    //         <p>Nice job</p>
-    //         <button onClick={() => setCountryList(makeRandomList())}>Next question</button>
-    //         </>
-    //         )
-    //     }
-    // }
-
     const [countryList, setCountryList] = useState(makeRandomList())
     const [correct, setCorrect] = useState(0)
-    // const [veracity, setVeracity] = useState(null)
     const [incorrect, setIncorrect] = useState(0)
 
     let randomIndex = Math.floor(Math.random() * 4) 
@@ -47,7 +36,6 @@ const CapitalsQuiz = () => {
     const handleButtonClick = (guess) => {
         if (guess === answer.city) {
             setCorrect(() => correct + 1)
-            // setVeracity(true)
             setCountryList(makeRandomList())
         }
         else {
@@ -63,13 +51,12 @@ const CapitalsQuiz = () => {
         {
             countryList.map((country, index) => 
                 <>
-                <button key={index} onClick={() => handleButtonClick(country.city)}>{country.city}</button><br />
+                <Button variant="outline-secondary" key={index} onClick={() => handleButtonClick(country.city)}>{country.city}</Button><br />
                 </>
             )
         }
         <p>Correct {correct}</p>
         <p>Incorrect {incorrect}</p>
-        {/* {status()} */}
         </>
     )
 }

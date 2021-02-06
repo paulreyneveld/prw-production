@@ -43,8 +43,13 @@ footer {
     padding-bottom: 7%;
 }
 
+.sidebar-about-ul {
+    padding-left: 2%;
+    font-size: 0.8em;
+}
+
 .sidebar-about-li {
     list-style-type: none;
-    padding-bottom: 7%;
+    padding-bottom: 3%;
 }
 
