@@ -25,6 +25,15 @@ const Dictionary = () => {
 
     }
 
+    const displayDefinition = () => {
+        if (definition && definition.length > 1) {
+            return (
+                definition.map((entry, index) => <li key={index}>{entry}</li>)
+            )
+        }
+        return (<p></p>)
+    }
+
     return (
         <>
         <form onSubmit={queryAPI}>
@@ -34,7 +43,8 @@ const Dictionary = () => {
             <input type="text" value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} style={{marginRight: 5}} />
             <Button variant="outline-secondary">Submit</Button>
         </form>
-        {definition.map((entry, index) => <li key={index}>{entry}</li>)}
+        {/* {definition.map((entry, index) => <li key={index}>{entry}</li>)} */}
+        {displayDefinition()}
         </>
     )
 }
