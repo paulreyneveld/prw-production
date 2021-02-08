@@ -300,136 +300,164 @@
         "city": "San Salvador"
     },
     {
+        "id": "60",
         "country": "England",
         "city": "London"
     },
     {
+        "id": "61",
         "country": "Equatorial Guinea",
         "city": "Malabo"
     },
     {
+        "id": "62",
         "country": "Eritrea",
         "city": "Asmara"
     },
     {
+        "id": "63",
         "country": "Estonia",
         "city": "Tallinn"
     },
     {
+        "id": "64",
         "country": "Ethiopia",
         "city": "Addis Ababa"
     },
     {
+        "id": "65",
         "country": "Falkland Islands",
         "city": "Stanley"
     },
     {
+        "id": "66",
         "country": "Faroe Islands",
         "city": "Tórshavn"
     },
     {
+        "id": "67",
         "country": "Fiji Islands",
         "city": "Suva"
     },
     {
+        "id": "68",
         "country": "Finland",
         "city": "Helsinki"
     },
     {
+        "id": "69",
         "country": "France",
         "city": "Paris"
     },
     {
+        "id": "70",
         "country": "French Guiana",
         "city": "Cayenne"
     },
     {
+        "id": "70",
         "country": "French Polynesia",
         "city": "Papeete"
     },
     {
+        "id": "71",
         "country": "Gabon",
         "city": "Libreville"
     },
     {
+        "id": "72",
         "country": "Gambia",
         "city": "Banjul"
     },
     {
+        "id": "73",
         "country": "Georgia",
         "city": "Tbilisi"
     },
     {
+        "id": "74",
         "country": "Germany",
         "city": "Berlin"
     },
     {
+        "id": "75",
         "country": "Ghana",
         "city": "Accra"
     },
     {
+        "id": "76",
         "country": "Gibraltar",
         "city": "Gibraltar"
     },
     {
+        "id": "77",
         "country": "Greece",
-        "city": "Athenai"
+        "city": "Athens"
     },
     {
+        "id": "78",
         "country": "Greenland",
         "city": "Nuuk"
     },
     {
+        "id": "79",
         "country": "Grenada",
         "city": "Saint George's"
     },
     {
+        "id": "80",
         "country": "Guadeloupe",
         "city": "Basse-Terre"
     },
     {
+        "id": "81",
         "country": "Guam",
         "city": "Aga"
     },
     {
+        "id": "82",
         "country": "Guatemala",
         "city": "Ciudad de Guatemala"
     },
     {
+        "id": "83",
         "country": "Guinea",
         "city": "Conakry"
     },
     {
+        "id": "84",
         "country": "Guinea-Bissau",
         "city": "Bissau"
     },
     {
+        "id": "85",
         "country": "Guyana",
         "city": "Georgetown"
     },
     {
+        "id": "86",
         "country": "Haiti",
         "city": "Port-au-Prince"
     },
     {
-        "country": "Holy See (Vatican City State)",
-        "city": "Citt"
-    },
-    {
+        "id": "87",
         "country": "Honduras",
         "city": "Tegucigalpa"
     },
     {
+        "id": "88",
         "country": "Hong Kong",
         "city": "Victoria"
     },
     {
+        "id": "89",
         "country": "Hungary",
         "city": "Budapest"
     },
     {
+        "id": "90",
         "country": "Iceland",
-        "city": "Reykjav"
+        "city": "Reykjavik"
     },
     {
         "country": "India",
