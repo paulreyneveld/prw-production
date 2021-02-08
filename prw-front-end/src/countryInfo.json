@@ -460,578 +460,707 @@
         "city": "Reykjavik"
     },
     {
+        "id": "91",
         "country": "India",
         "city": "New Delhi"
     },
     {
+        "id": "92",
         "country": "Indonesia",
         "city": "Jakarta"
     },
     {
+        "id": "93",
         "country": "Iran",
         "city": "Tehran"
     },
     {
+        "id": "94",
         "country": "Iraq",
         "city": "Baghdad"
     },
     {
+        "id": "95",
         "country": "Ireland",
         "city": "Dublin"
     },
     {
+        "id": "96",
         "country": "Israel",
         "city": "Jerusalem"
     },
     {
+        "id": "97",
         "country": "Italy",
-        "city": "Roma"
+        "city": "Rome"
     },
     {
+        "id": "99",
         "country": "Ivory Coast",
         "city": "Yamoussoukro"
     },
     {
+        "id": "100",
         "country": "Jamaica",
         "city": "Kingston"
     },
     {
+        "id": "101",
         "country": "Japan",
         "city": "Tokyo"
     },
     {
+        "id": "102",
         "country": "Jordan",
         "city": "Amman"
     },
     {
+        "id": "103",
         "country": "Kazakhstan",
         "city": "Astana"
     },
     {
+        "id": "104",
         "country": "Kenya",
         "city": "Nairobi"
     },
     {
+        "id": "105",
         "country": "Kiribati",
-        "city": "Bairiki"
+        "city": "Tarawa"
     },
     {
+        "id": "106",
         "country": "Kuwait",
-        "city": "Kuwait"
+        "city": "Kuwait City"
     },
     {
+        "id": "107",
         "country": "Kyrgyzstan",
         "city": "Bishkek"
     },
     {
+        "id": "108",
         "country": "Laos",
         "city": "Vientiane"
     },
     {
+        "id": "109",
         "country": "Latvia",
         "city": "Riga"
     },
     {
+        "id": "110",
         "country": "Lebanon",
         "city": "Beirut"
     },
     {
+        "id": "111",
         "country": "Lesotho",
         "city": "Maseru"
     },
     {
+        "id": "112",
         "country": "Liberia",
         "city": "Monrovia"
     },
     {
-        "country": "Libyan Arab Jamahiriya",
+        "id": "113",
+        "country": "Libya",
         "city": "Tripoli"
     },
     {
+        "id": "114",
         "country": "Liechtenstein",
         "city": "Vaduz"
     },
     {
+        "id": "115",
         "country": "Lithuania",
         "city": "Vilnius"
     },
     {
+        "id": "116",
         "country": "Luxembourg",
-        "city": "Luxembourg [Luxemburg/L"
+        "city": "Luxembourg"
     },
     {
+        "id": "117",
         "country": "Macao",
         "city": "Macao"
     },
     {
-        "country": "North Macedonia",
+        "id": "118",
+        "country": "Macedonia",
         "city": "Skopje"
     },
     {
+        "id": "119",
         "country": "Madagascar",
         "city": "Antananarivo"
     },
     {
+        "id": "120",
         "country": "Malawi",
         "city": "Lilongwe"
     },
     {
+        "id": "121",
         "country": "Malaysia",
         "city": "Kuala Lumpur"
     },
     {
+        "id": "122",
         "country": "Maldives",
         "city": "Male"
     },
     {
+        "id": "123",
         "country": "Mali",
         "city": "Bamako"
     },
     {
+        "id": "124",
         "country": "Malta",
         "city": "Valletta"
     },
     {
+        "id": "125",
         "country": "Marshall Islands",
-        "city": "Dalap-Uliga-Darrit"
+        "city": "Majuro"
     },
     {
+        "id": "126",
         "country": "Martinique",
         "city": "Fort-de-France"
     },
     {
+        "id": "127",
         "country": "Mauritania",
         "city": "Nouakchott"
     },
     {
+        "id": "128",
         "country": "Mauritius",
-        "city": "Port-Louis"
+        "city": "Port Louis"
     },
     {
+        "id": "129",
         "country": "Mayotte",
-        "city": "Mamoutzou"
+        "city": "Mamoudzou"
     },
     {
+        "id": "130",
         "country": "Mexico",
-        "city": "Ciudad de M"
+        "city": "Mexico City"
     },
     {
-        "country": "Micronesia, Federated States of",
+        "id": "131",
+        "country": "Federated States of Micronesia",
         "city": "Palikir"
     },
     {
+        "id": "132",
         "country": "Moldova",
         "city": "Chisinau"
     },
     {
+        "id": "133",
         "country": "Monaco",
-        "city": "Monaco-Ville"
+        "city": "Monte Carlo"
     },
     {
+        "id": "134",
         "country": "Mongolia",
         "city": "Ulan Bator"
     },
     {
+        "id": "135",
         "country": "Montenegro",
         "city": "Podgorica"
     },
     {
+        "id": "136",
         "country": "Montserrat",
         "city": "Plymouth"
     },
     {
+        "id": "137",
         "country": "Morocco",
         "city": "Rabat"
     },
     {
+        "id": "138",
         "country": "Mozambique",
         "city": "Maputo"
     },
     {
+        "id": "139",
         "country": "Myanmar",
-        "city": "Rangoon (Yangon)"
+        "city": "Rangoon"
     },
     {
+        "id": "140",
         "country": "Namibia",
         "city": "Windhoek"
     },
     {
+        "id": "141",
         "country": "Nauru",
         "city": "Yaren"
     },
     {
+        "id": "142",
         "country": "Nepal",
         "city": "Kathmandu"
     },
     {
+        "id": "143",
         "country": "Netherlands",
         "city": "Amsterdam"
     },
     {
+        "id": "144",
         "country": "Netherlands Antilles",
         "city": "Willemstad"
     },
     {
+        "id": "145",
         "country": "New Caledonia",
         "city": "Noum"
     },
     {
+        "id": "146",
         "country": "New Zealand",
         "city": "Wellington"
     },
     {
+        "id": "147",
         "country": "Nicaragua",
         "city": "Managua"
     },
     {
+        "id": "147",
         "country": "Niger",
         "city": "Niamey"
     },
     {
+        "id": "148",
         "country": "Nigeria",
         "city": "Abuja"
     },
     {
+        "id": "149",
         "country": "Niue",
         "city": "Alofi"
     },
     {
+        "id": "150",
         "country": "Norfolk Island",
         "city": "Kingston"
     },
     {
+        "id": "151",
         "country": "North Korea",
         "city": "Pyongyang"
     },
     {
+        "id": "152",
         "country": "Northern Ireland",
         "city": "Belfast"
     },
     {
+        "id": "153",
         "country": "Northern Mariana Islands",
-        "city": "Garapan"
+        "city": "Saipan"
     },
     {
+        "id": "154",
         "country": "Norway",
         "city": "Oslo"
     },
     {
+        "id": "155",
         "country": "Oman",
-        "city": "Masqat"
+        "city": "Muscat"
     },
     {
+        "id": "157",
         "country": "Pakistan",
         "city": "Islamabad"
     },
     {
+        "id": "158",
         "country": "Palau",
-        "city": "Koror"
+        "city": "Ngerulmud"
     },
     {
+        "id": "159",
         "country": "Palestine",
         "city": "Gaza"
     },
     {
+        "id": "160",
         "country": "Panama",
-        "city": "Ciudad de Panam"
+        "city": "Panama City"
     },
     {
+        "id": "161",
         "country": "Papua New Guinea",
         "city": "Port Moresby"
     },
     {
+        "id": "162",
         "country": "Paraguay",
         "city": "Asuncion"
     },
     {
+        "id": "163",
         "country": "Peru",
         "city": "Lima"
     },
     {
+        "id": "164",
         "country": "Philippines",
         "city": "Manila"
     },
     {
+        "id": "165",
         "country": "Pitcairn",
         "city": "Adamstown"
     },
     {
+        "id": "166",
         "country": "Poland",
-        "city": "Warszawa"
+        "city": "Warsaw"
     },
     {
+        "id": "167",
         "country": "Portugal",
         "city": "Lisboa"
     },
     {
+        "id": "168",
         "country": "Puerto Rico",
         "city": "San Juan"
     },
     {
+        "id": "169",
         "country": "Qatar",
         "city": "Doha"
     },
     {
+        "id": "170",
         "country": "Reunion",
         "city": "Saint-Denis"
     },
     {
+        "id": "171",
         "country": "Romania",
-        "city": "Bucuresti"
+        "city": "Bucharest"
     },
     {
-        "country": "Russian Federation",
+        "id": "172",
+        "country": "Russian",
         "city": "Moscow"
     },
     {
+        "id": "173",
         "country": "Rwanda",
         "city": "Kigali"
     },
     {
+        "id": "174",
         "country": "Saint Helena",
         "city": "Jamestown"
     },
     {
+        "id": "175",
         "country": "Saint Kitts and Nevis",
         "city": "Basseterre"
     },
     {
+        "id": "176",
         "country": "Saint Lucia",
         "city": "Castries"
     },
     {
+        "id": "177",
         "country": "Saint Pierre and Miquelon",
         "city": "Saint-Pierre"
     },
     {
+        "id": "178",
         "country": "Saint Vincent and the Grenadines",
         "city": "Kingstown"
     },
     {
+        "id": "179",
         "country": "Samoa",
         "city": "Apia"
     },
     {
+        "id": "180",
         "country": "San Marino",
         "city": "San Marino"
     },
     {
+        "id": "181",
         "country": "Sao Tome and Principe",
-        "city": "S"
+        "city": "Sao Tome"
     },
     {
+        "id": "182",
         "country": "Saudi Arabia",
         "city": "Riyadh"
     },
     {
+        "id": "183",
         "country": "Scotland",
         "city": "Edinburgh"
     },
     {
+        "id": "184",
         "country": "Senegal",
         "city": "Dakar"
     },
     {
+        "id": "185",
         "country": "Serbia",
         "city": "Belgrade"
     },
     {
+        "id": "186",
         "country": "Seychelles",
         "city": "Victoria"
     },
     {
+        "id": "187",
         "country": "Sierra Leone",
         "city": "Freetown"
     },
     {
+        "id": "188",
         "country": "Singapore",
         "city": "Singapore"
     },
     {
+        "id": "189",
         "country": "Slovakia",
         "city": "Bratislava"
     },
     {
+        "id": "190",
         "country": "Slovenia",
         "city": "Ljubljana"
     },
     {
+        "id": "191",
         "country": "Solomon Islands",
         "city": "Honiara"
     },
     {
+        "id": "192",
         "country": "Somalia",
         "city": "Mogadishu"
     },
     {
+        "id": "193",
         "country": "South Africa",
         "city": "Pretoria"
     },
     {
+        "id": "194",
         "country": "South Korea",
         "city": "Seoul"
     },
     {
+        "id": "195",
         "country": "South Sudan",
         "city": "Juba"
     },
     {
+        "id": "196",
         "country": "Spain",
         "city": "Madrid"
     },
     {
+        "id": "197",
         "country": "Sri Lanka",
         "city": "Sri Jayawardenepura Kotte"
     },
     {
+        "id": "198",
         "country": "Sudan",
-        "city": "Khartum"
+        "city": "Khartoum"
     },
     {
+        "id": "199",
         "country": "Suriname",
         "city": "Paramaribo"
     },
     {
+        "id": "200",
         "country": "Svalbard and Jan Mayen",
         "city": "Longyearbyen"
     },
     {
+        "id": "201",
         "country": "Swaziland",
-        "city": "Mbabane"
+        "city": "Eswatini"
     },
     {
+        "id": "202",
         "country": "Sweden",
         "city": "Stockholm"
     },
     {
+        "id": "203",
         "country": "Switzerland",
         "city": "Bern"
     },
     {
+        "id": "204",
         "country": "Syria",
         "city": "Damascus"
     },
     {
+        "id": "205",
         "country": "Tajikistan",
         "city": "Dushanbe"
     },
     {
+        "id": "206",
         "country": "Tanzania",
         "city": "Dodoma"
     },
     {
+        "id": "207",
         "country": "Thailand",
         "city": "Bangkok"
     },
     {
+        "id": "208",
         "country": "The Democratic Republic of Congo",
         "city": "Kinshasa"
     },
     {
+        "id": "209",
         "country": "Togo",
-        "city": "Lom"
+        "city": "Lome"
     },
     {
+        "id": "210",
         "country": "Tokelau",
-        "city": "Fakaofo"
+        "city": "Nukunonu"
     },
     {
+        "id": "211",
         "country": "Tonga",
         "city": "Nuku'alofa"
     },
     {
+        "id": "212",
         "country": "Trinidad and Tobago",
         "city": "Port-of-Spain"
     },
     {
+        "id": "213",
         "country": "Tunisia",
         "city": "Tunis"
     },
     {
+        "id": "214",
         "country": "Turkey",
         "city": "Ankara"
     },
     {
+        "id": "215",
         "country": "Turkmenistan",
         "city": "Ashgabat"
     },
     {
+        "id": "216",
         "country": "Turks and Caicos Islands",
         "city": "Cockburn Town"
     },
     {
+        "id": "217",
         "country": "Tuvalu",
         "city": "Funafuti"
     },
     {
+        "id": "218",
         "country": "Uganda",
         "city": "Kampala"
     },
     {
+        "id": "219",
         "country": "Ukraine",
         "city": "Kyiv"
     },
     {
+        "id": "220",
         "country": "United Arab Emirates",
         "city": "Abu Dhabi"
     },
     {
+        "id": "221",
         "country": "United Kingdom",
         "city": "London"
     },
     {
+        "id": "222",
         "country": "United States",
-        "city": "Washington"
+        "city": "Washington D.C."
     },
     {
+        "id": "223",
         "country": "Uruguay",
         "city": "Montevideo"
     },
     {
+        "id": "224",
         "country": "Uzbekistan",
         "city": "Taskent"
     },
     {
+        "id": "225",
         "country": "Vanuatu",
-        "city": "Port-Vila"
+        "city": "Port Vila"
     },
     {
+        "id": "226",
         "country": "Venezuela",
         "city": "Caracas"
     },
     {
+        "id": "227",
         "country": "Vietnam",
         "city": "Hanoi"
     },
     {
+        "id": "228",
         "country": "Virgin Islands, British",
         "city": "Road Town"
     },
     {
+        "id": "229",
         "country": "Virgin Islands, U.S.",
         "city": "Charlotte Amalie"
     },
     {
-        "country": "Wales",
-        "city": "Cardiff"
-    },
-    {
-        "country": "Wallis and Futuna",
-        "city": "Mata-Utu"
-    },
-    {
-        "country": "Western Sahara",
-        "city": "El-Aai"
-    },
-    {
+        "id": "230",
         "country": "Yemen",
         "city": "Sanaa"
     },
     {
+        "id": "231",
         "country": "Zambia",
         "city": "Lusaka"
     },
     {
+        "id": "232",
         "country": "Zimbabwe",
         "city": "Harare"
     }
