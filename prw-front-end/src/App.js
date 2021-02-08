@@ -44,6 +44,8 @@ const App = () => {
         </Route>
         <Route path="/contact">
             <Contact />
+            <Header />
+            <Footer />
         </Route>
     </Switch>
     </Router>
