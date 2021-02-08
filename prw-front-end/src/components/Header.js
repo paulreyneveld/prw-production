@@ -4,7 +4,12 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import { Button, Navbar} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Header = (props) => {
+
+    const sendToContact = () => {
+        props.history.push('/contact')
+    }
+
     return (
         <>
         <Navbar bg="dark" variant="dark" className="navbar-padding">
@@ -30,7 +35,7 @@ const Header = () => {
             <p>
             Welcome to Paul Reinvents Wheels.</p>
             <p>
-            <Button variant="primary">Contact</Button>
+            <Button variant="primary" onClick={sendToContact}>Contact</Button>
             </p>
         </Jumbotron>
         </>

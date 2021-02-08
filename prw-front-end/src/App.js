@@ -21,32 +21,42 @@ const App = () => {
     <Container>
     <Router>
     <Switch>
-        <Route exact path ="/">
-            <Header />
+        <Route exact path ="/" render={(props) => 
+        <>
+            <Header {...props} />
             <Home />
             <Footer />
-        </Route>
-        <Route path="/about">
-            <Header />
+        </>
+        } />
+        <Route exact path ="/about" render={(props) => 
+        <>
+            <Header {...props} />
             <About />
             <Footer />
-        </Route>
-        <Route path="/projects">
-            <Header />
+        </>
+        } />
+        <Route exact path ="/projects" render={(props) => 
+        <>
+            <Header {...props} />
             <Projects />
             <Footer />
-        </Route>
+        </>
+        } />
 
-        <Route path="/resources">
-            <Header />
+        <Route exact path ="/resources" render={(props) => 
+        <>
+            <Header {...props} />
             <Resources />
             <Footer />
-        </Route>
-        <Route path="/contact">
+        </>
+        } />
+        <Route exact path ="/contact" render={(props) => 
+        <>
+            <Header {...props} />
             <Contact />
-            <Header />
             <Footer />
-        </Route>
+        </>
+        } />
     </Switch>
     </Router>
     </Container>
