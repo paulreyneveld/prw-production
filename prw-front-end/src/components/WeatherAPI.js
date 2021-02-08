@@ -33,12 +33,12 @@ const WeatherAPI = () => {
         if (treatedHourlyData.length > 0) {
             return (
                 treatedHourlyData.slice(0,8).map((entry, i) => 
-                <>
-                <h6 key={entry.temp}>{entry.time}:00</h6>
-                <li className="sidebar-li" key={i}>Probability of Precipitation: {Math.round(entry.pop * 100)}%<br />
+                <div key={i}>
+                <h6>{entry.time}:00</h6>
+                <li className="sidebar-li">Probability of Precipitation: {Math.round(entry.pop * 100)}%<br />
                 Temperature: {Math.round(entry.temp)} <br />
                 Feels Like: {Math.round(entry.feels_like)}</li>
-                </>
+                </div>
                 )
             )
         }
