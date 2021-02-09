@@ -11,7 +11,7 @@ const Dictionary = () => {
     const [searchTerm, setSearchTerm] = useState('')
     const [definition, setDefinition] = useState([])
 
-    const API_URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${searchTerm}?key=${WEBSTER_API_KEY}`
+    const API_URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${searchTerm}?key=${WEBSTERS_API_KEY}`
     
     const queryAPI = (event) => {
         event.preventDefault()
