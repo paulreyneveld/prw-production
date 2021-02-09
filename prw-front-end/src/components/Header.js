@@ -14,7 +14,7 @@ const Header = (props) => {
         <>
         <Navbar bg="dark" variant="dark" className="navbar-padding">
         <Nav>
-            <Navbar.Brand>prw</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/">prw</Navbar.Brand>
             <Nav.Item>
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
             </Nav.Item>
