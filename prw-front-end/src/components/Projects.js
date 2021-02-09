@@ -40,7 +40,7 @@ const Projects = () => {
         <span style={style} onClick={() => openInNewTab('https://immense-lowlands-07888.herokuapp.com/')}><Image style={{paddingBottom: 10}} src={groceryImage} /></span>
                 <p>This is a clone of a grocery list app that I put together to synchronize the the needs of myself and my partner. 
                 It's running with a React frontend. State management is through the Hooks API, and data persistence is handled through 
-                MongoDB</p>
+                MongoDB.</p>
                 <p><span style={style} onClick={() => openInNewTab('https://github.com/paulreyneveld/grocer/tree/main/grocer-heroku-deployment')}>Repo</span></p>
         </Col>
         <Col>
@@ -53,7 +53,7 @@ const Projects = () => {
         <Row>
         <Col className="gutterfix">
         <span style={style} onClick={() => openInNewTab('http://www.wheelerswcd.org/')}><Image style={{paddingBottom: 10}} src={wheelerImage} /></span>
-        <p>This is a very old project and was put together cerca 2009. I can't say that I stand by the code at this point as I doubt
+        <p>This is a very old project and was put together circa 2009. I can't say that I stand by the code at this point as I doubt
         the Drupal install that it's running on has been updated since it was put together in the first place. The project was built on a LAMP
         stack in concert with a former colleague. Given its age, I unfortunately don't have a git repo associated with it.</p>
         </Col>
