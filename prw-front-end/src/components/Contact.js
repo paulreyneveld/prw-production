@@ -10,19 +10,16 @@ const Contact = () => {
     const handleName = (event) => {
         event.preventDefault()
         setName(event.target.value)
-        console.log(name)
     }
 
     const handleEmail = (event) => {
         event.preventDefault()
         setEmail(event.target.value)
-        console.log(email)
     }
 
     const handleMessage = (event) => {
         event.preventDefault()
         setMessage(event.target.value)
-        console.log(message)
     }
 
     const handleSubmit = (event) => {
@@ -35,7 +32,6 @@ const Contact = () => {
         }
         axios.post('http://localhost:3001/contact', payload)
             .then(response => {
-                console.log(response)
                 setName('')
                 setEmail('')
                 setMessage('')

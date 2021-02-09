@@ -9,8 +9,36 @@ app.use(express.json())
 
 app.post('/contact', async (request, response) => {
   const body = request.body
-  console.log(body)
-  response.json(body).status(200).end()
+
+  const smtpTransport = nodemailer.createTransport({
+    service: 'Gmail',
+    port: 465,
+    auth: {
+      user: process.env.MAIL_USERNAME,
+      pass: process.env.MAIL_PASSWORD
+    }
+  })
+
+  const mailOptions = {
+    from: body.email,
+    to: 'paul.reyneveld@gmail.com',
+    subject: 'Email from PRW',
+    html: `<p>${body.name}</p>
+          <p>${body.email}</p>
+          <p>${body.message}</p>`
+  }
+
+  smtpTransport.sendMail(mailOptions,
+    (err, res) => {
+      if (err) {
+        response.send(err)
+      }
+      else {
+        response.send('Success')
+      }
+      smtpTransport.close()
+    })
+  // response.json(body).status(200).end()
 })
 
 const PORT = 3001
