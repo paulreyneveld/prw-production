@@ -2,6 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const cors = require('cors')
+const nodemailer = require('nodemailer')
 
 app.use(cors())
 app.use(express.json())
@@ -9,7 +10,7 @@ app.use(express.json())
 app.post('/contact', async (request, response) => {
   const body = request.body
   console.log(body)
-  response.status(200).end()
+  response.json(body).status(200).end()
 })
 
 const PORT = 3001
