@@ -42,7 +42,6 @@ const App = () => {
             <Footer />
         </>
         } />
-
         <Route exact path ="/resources" render={(props) => 
         <>
             <Header {...props} />
