@@ -6,6 +6,7 @@ const Contact = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const [confirmation, setConfirmation] = useState(false)
 
     const handleName = (event) => {
         event.preventDefault()
@@ -24,19 +25,37 @@ const Contact = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        console.log('hello')
+
         const payload = {
             name,
             email,
             message
         }
+
         axios.post('http://localhost:3001/contact', payload)
             .then(response => {
                 setName('')
                 setEmail('')
                 setMessage('')
+                console.log(response)
+                if (response.data === 'Success') {
+                    setConfirmation(true)
+                    console.log(confirmation)
+                }
+                else {
+                    setConfirmation(false)
+                }
+                console.log(confirmation)
             })
             .catch(error => console.log(error))
+    }
+    console.log(confirmation)
+
+    const messageSent = () => {
+        if (confirmation) {
+            setTimeout(() => setConfirmation(false), 3500)
+            return (<p>Message sent!</p>)
+        }
     }
 
     return (
@@ -77,9 +96,8 @@ const Contact = () => {
             </div>
             <button type="submit" className="btn btn-primary">Submit</button>
         </form>
-
-
-
+        <br />
+        {messageSent()}
         </>
     )
 }
