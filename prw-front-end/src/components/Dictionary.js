@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button'
 const Dictionary = () => {
 
     // Merriam API KEY
-    const WEBSTER_API_KEY = process.env.REACT_APP_WEBSTERS_API_KEY
+    const WEBSTERS_API_KEY = process.env.REACT_APP_WEBSTERS_API_KEY
     
     const [searchTerm, setSearchTerm] = useState('')
     const [definition, setDefinition] = useState([])

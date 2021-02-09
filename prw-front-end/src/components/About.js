@@ -66,7 +66,8 @@ const About = () => {
         </ul>
         <h6>Resume</h6>
         <ul className="sidebar-about-ul">
-        <li className="sidebar-about-li"><a href={process.env.PUBLIC_URL + '/resume.pdf'}>Resume</a></li>
+        <li className="sidebar-about-li"><span style={style} onClick={() => openInNewTab(process.env.PUBLIC_URL + '/resume.pdf')}>Resume</span></li>
+
         </ul>
         </Col>
     </Row>
