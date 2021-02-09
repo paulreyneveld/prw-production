@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const WEATHER_API_KEY = process.env.WEATHER_API_KEYs
+const WEATHER_API_KEY = process.env.REACT_APP_WEATHER_API_KEY
 const weatherApiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=45.4712&lon=-122.5988&units=imperial&exclude=minutely&appid=${WEATHER_API_KEY}`
 
 const WeatherAPI = () => {
