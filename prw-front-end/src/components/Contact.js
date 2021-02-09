@@ -25,7 +25,8 @@ const Contact = () => {
         console.log(message)
     }
 
-    const handleSubmit = () => {
+    const handleSubmit = (event) => {
+        event.preventDefault()
         console.log('hello')
         const payload = {
             name,
@@ -33,6 +34,13 @@ const Contact = () => {
             message
         }
         axios.post('http://localhost:3001/contact', payload)
+            .then(response => {
+                console.log(response)
+                setName('')
+                setEmail('')
+                setMessage('')
+            })
+            .catch(error => console.log(error))
     }
 
     return (
@@ -40,12 +48,12 @@ const Contact = () => {
         <p>Please feel free to contact me directly through the following form. Alternately, my contact
         information is available via my <a href={process.env.PUBLIC_URL + '/resume.pdf'}>Resume</a>.</p>
 
-
         <form id="contact-form" onSubmit={handleSubmit} method="POST">
             <div className="form-group">
                 <label htmlFor="name">Name</label>
                 <input 
                     type="text" 
+                    value={name}
                     className="form-control"
                     onChange={handleName}
                      />
@@ -54,6 +62,7 @@ const Contact = () => {
                 <label htmlFor="exampleInputEmail1">Email address</label>
                 <input 
                     type="email" 
+                    value={email}
                     className="form-control" 
                     aria-describedby="emailHelp"
                     onChange={handleEmail}
@@ -64,10 +73,11 @@ const Contact = () => {
                 <textarea 
                     className="form-control" 
                     rows="5"
+                    value={message}
                     onChange={handleMessage}
                     >
 
-                    </textarea>
+                </textarea>
             </div>
             <button type="submit" className="btn btn-primary">Submit</button>
         </form>
