@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const nodemailer = require('nodemailer')
+const path = require('path')
 
 app.use(cors())
 app.use(express.json())
@@ -41,7 +42,11 @@ app.post('/contact', async (request, response) => {
   // response.json(body).status(200).end()
 })
 
-const PORT = 3001
+app.get('/*', (request, response) => {
+  response.sendFile(path.join(__dirname, './build/index.html'))
+})
+
+const PORT = process.env.PORT || 3001
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
