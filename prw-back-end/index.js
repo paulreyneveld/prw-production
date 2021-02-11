@@ -11,9 +11,10 @@ app.use(express.json())
 
 app.get('/weatherapi', (req, res) => {
   const WEATHER_API_KEY = process.env.WEATHER_API_KEY
-  axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=45.4712&lon=-122.5988&units=imperial&exclude=minutely&appid=${WEATHER_API_KEY}`)
+  const API_URL = `https://api.openweathermap.org/data/2.5/onecall?lat=45.4712&lon=-122.5988&units=imperial&exclude=minutely&appid=${WEATHER_API_KEY}`
+  axios.get(API_URL)
     .then(weather => {
-      console.log(weather.data.hourly)
+      // console.log(weather.data.hourly)
       res.send(weather.data.hourly)      
     })
     .catch(error => console.log(error))
@@ -21,7 +22,14 @@ app.get('/weatherapi', (req, res) => {
 
 app.get('/dictionaryapi', (req, res) => {
   const WEBSTERS_API_KEY = process.env.WEBSTERS_API_KEY
-  
+  const searchTerm = 'cheese'
+  const API_URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${searchTerm}?key=${WEBSTERS_API_KEY}`
+  console.log(req.query.search)
+  axios.get(API_URL)
+    .then(response => {
+      //  console.log(response.data)
+      res.send(response.data[0].shortdef)
+    })
 })
 
 app.post('/contact', async (req, res) => {

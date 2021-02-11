@@ -6,18 +6,21 @@ import Button from 'react-bootstrap/Button'
 const Dictionary = () => {
 
     // Merriam API KEY
-    const WEBSTERS_API_KEY = process.env.REACT_APP_WEBSTERS_API_KEY
+    // const WEBSTERS_API_KEY = process.env.REACT_APP_WEBSTERS_API_KEY
     
     const [searchTerm, setSearchTerm] = useState('')
     const [definition, setDefinition] = useState([])
 
-    const API_URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${searchTerm}?key=${WEBSTERS_API_KEY}`
+    // const API_URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${searchTerm}?key=${WEBSTERS_API_KEY}`
     
     const queryAPI = (event) => {
         event.preventDefault()
-        axios.get(API_URL)
+        axios.get('http://localhost:3001/dictionaryapi', { params: {
+            search: searchTerm
+        }})
             .then(response => {
-                setDefinition(response.data[0].shortdef)
+                console.log(response.data)
+                setDefinition(response.data)
             })
             .catch(error => console.log(error))
 
