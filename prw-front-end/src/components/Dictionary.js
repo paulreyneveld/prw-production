@@ -19,7 +19,6 @@ const Dictionary = () => {
             search: searchTerm
         }})
             .then(response => {
-                console.log(response.data)
                 setDefinition(response.data)
             })
             .catch(error => console.log(error))

@@ -22,12 +22,12 @@ app.get('/weatherapi', (req, res) => {
 
 app.get('/dictionaryapi', (req, res) => {
   const WEBSTERS_API_KEY = process.env.WEBSTERS_API_KEY
-  const searchTerm = 'cheese'
+  const searchTerm = req.query.search
   const API_URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${searchTerm}?key=${WEBSTERS_API_KEY}`
   console.log(req.query.search)
   axios.get(API_URL)
     .then(response => {
-      //  console.log(response.data)
+      console.log(response.data)
       res.send(response.data[0].shortdef)
     })
 })
