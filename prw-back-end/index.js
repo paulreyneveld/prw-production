@@ -63,7 +63,7 @@ app.post('/contact', async (req, res) => {
       }
       smtpTransport.close()
     })
-  // res.json(body).status(200).end()
+  res.status(200).end()
 })
 
 app.get('/*', (req, res) => {

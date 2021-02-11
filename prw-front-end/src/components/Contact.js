@@ -16,7 +16,7 @@ const Contact = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
-    const [confirmation, setConfirmation] = useState(false)
+    const [confirmation, setConfirmation] = useState(null)
 
     const handleName = (event) => {
         event.preventDefault()
@@ -44,11 +44,8 @@ const Contact = () => {
 
         axios.post('http://localhost:3001/contact', payload)
             .then(response => {
-                setName('')
-                setEmail('')
-                setMessage('')
-                console.log(response)
-                if (response.data === 'Success') {
+                console.log(response.status)
+                if (response.status === 200) {
                     setConfirmation(true)
                     console.log(confirmation)
                 }
@@ -56,6 +53,9 @@ const Contact = () => {
                     setConfirmation(false)
                 }
                 console.log(confirmation)
+                setName('')
+                setEmail('')
+                setMessage('')
             })
             .catch(error => console.log(error))
     }
