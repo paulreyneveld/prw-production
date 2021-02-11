@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const WEATHER_API_KEY = process.env.REACT_APP_WEATHER_API_KEY
-const weatherApiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=45.4712&lon=-122.5988&units=imperial&exclude=minutely&appid=${WEATHER_API_KEY}`
-
 const WeatherAPI = () => {
     const [ weatherData, setWeatherData ] = useState([])
     const [ loading, setLoading ] = useState(true)
 
     const getWeatherData = () => {
-        return axios.get(weatherApiUrl)
+        return axios.get('http://localhost:3001/weatherapi')
             .then(response => {
-                setWeatherData(response.data.hourly)
+                console.log(response)
+                setWeatherData(response.data)
                 setLoading(false)
             })
             .catch(error => console.log(error))
