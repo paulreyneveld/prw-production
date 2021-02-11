@@ -4,14 +4,9 @@ import Button from 'react-bootstrap/Button'
 
 
 const Dictionary = () => {
-
-    // Merriam API KEY
-    // const WEBSTERS_API_KEY = process.env.REACT_APP_WEBSTERS_API_KEY
     
     const [searchTerm, setSearchTerm] = useState('')
     const [definition, setDefinition] = useState([])
-
-    // const API_URL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${searchTerm}?key=${WEBSTERS_API_KEY}`
     
     const queryAPI = (event) => {
         event.preventDefault()
