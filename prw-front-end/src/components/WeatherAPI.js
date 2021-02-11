@@ -8,7 +8,6 @@ const WeatherAPI = () => {
     const getWeatherData = () => {
         return axios.get('http://localhost:3001/weatherapi')
             .then(response => {
-                console.log(response)
                 setWeatherData(response.data)
                 setLoading(false)
             })
