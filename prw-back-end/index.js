@@ -19,6 +19,11 @@ app.get('/weatherapi', (req, res) => {
     .catch(error => console.log(error))
 })
 
+app.get('/dictionaryapi', (req, res) => {
+  const WEBSTERS_API_KEY = process.env.WEBSTERS_API_KEY
+  
+})
+
 app.post('/contact', async (req, res) => {
   const body = req.body
 
