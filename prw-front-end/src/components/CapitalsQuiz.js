@@ -1,32 +1,34 @@
 import React, { useState } from 'react'
 import countryInfo from '../countryInfo.json'
+import testInfo from '../test.json'
 import Button from 'react-bootstrap/Button'
 
 const CapitalsQuiz = () => {
     
-    const getRandomCountry = () => {
-        let randomIndex = Math.floor(countryInfo.length * Math.random())
-        let randomCountry = countryInfo[randomIndex]
+    const getRandomCountry = (list) => {
+        let randomIndex = Math.floor(list.length * Math.random())
+        let randomCountry = list[randomIndex]
         return randomCountry
     }
     
-    const makeRandomList = () => {
+    const makeRandomList = (list) => {
+        console.log(list)
         let countryList = []
         for (let i = 0; i < 4; i++) {
-            countryList.push(getRandomCountry())
+            countryList.push(getRandomCountry(list))
         }
 
         for (let i = 0; i < countryList.length; i++) {
             for (let j = i + 1; j < countryList.length - 1; j++) {
                 if (countryList[i] === countryList[j]) {
-                    makeRandomList()
+                    makeRandomList(list)
                 }
             }
         }
         return countryList
     }
 
-    const [countryList, setCountryList] = useState(makeRandomList())
+    const [countryList, setCountryList] = useState(makeRandomList(countryInfo))
     const [correct, setCorrect] = useState(0)
     const [incorrect, setIncorrect] = useState(0)
 
@@ -36,11 +38,11 @@ const CapitalsQuiz = () => {
     const handleButtonClick = (guess) => {
         if (guess === answer.city) {
             setCorrect(() => correct + 1)
-            setCountryList(makeRandomList())
+            setCountryList(makeRandomList(countryInfo))
         }
         else {
             setIncorrect(() => incorrect + 1)
-            setCountryList(makeRandomList())
+            setCountryList(makeRandomList(countryInfo))
         }
     }
 

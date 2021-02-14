@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0",
+        "country": "Afghanistan",
+        "city": "Kabul"
+    },
+    {
+        "id": "1",
+        "country": "Albania",
+        "city": "Tirana"
+    },
+    {
+        "id": "2",
+        "country": "Algeria",
+        "city": "Algiers"
+    },
+    {
+        "id": "3",
+        "country": "American Samoa",
+        "city": "Pago Pago"
+    },
+    {
+        "id": "4",
+        "country": "Andorra",
+        "city": "Andorra la Vella"
+    },
+    {
+        "id": "5",
+        "country": "Angola",
+        "city": "Luanda"
+    }
+]
