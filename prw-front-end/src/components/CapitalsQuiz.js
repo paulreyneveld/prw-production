@@ -17,17 +17,12 @@ const CapitalsQuiz = () => {
             countryList.push(getRandomCountry(list))
         }
 
-        // for (let i = 0; i < countryList.length; i++) {
-        //     for (let j = i + 1; j < countryList.length - 1; j++) {
-        //         if (countryList[i] === countryList[j]) {
-        //             makeRandomList(list)
-        //         }
-        //     }
-        // }
-
         const uniqueCountryList = [...new Set(countryList)]
+        
+        if (uniqueCountryList.length < 4) {
+            return makeRandomList(list)
+        }
 
-        // return countryList
         return uniqueCountryList
     }
 
