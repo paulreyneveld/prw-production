@@ -12,7 +12,6 @@ const CapitalsQuiz = () => {
     }
     
     const makeRandomList = (list) => {
-        console.log(list)
         let countryList = []
         for (let i = 0; i < 4; i++) {
             countryList.push(getRandomCountry(list))
@@ -45,6 +44,14 @@ const CapitalsQuiz = () => {
             setCountryList(makeRandomList(countryInfo))
         }
     }
+
+    const test1 = makeRandomList(testInfo)
+    const test2 = makeRandomList(testInfo)
+    const test3 = makeRandomList(testInfo)
+
+    console.log(test1)
+    console.log(test2)
+    console.log(test3)
 
     return (
         <>
