@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import countryInfo from '../countryInfo.json'
-import testInfo from '../test.json'
 import Button from 'react-bootstrap/Button'
 
 const CapitalsQuiz = () => {
@@ -43,14 +42,6 @@ const CapitalsQuiz = () => {
             setCountryList(makeRandomList(countryInfo))
         }
     }
-
-    const test1 = makeRandomList(testInfo)
-    const test2 = makeRandomList(testInfo)
-    const test3 = makeRandomList(testInfo)
-
-    console.log(test1)
-    console.log(test2)
-    console.log(test3)
 
     return (
         <>
