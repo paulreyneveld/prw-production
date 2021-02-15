@@ -45,7 +45,6 @@ const Contact = () => {
 
         axios.post('http://localhost:3001/contact', payload)
             .then(response => {
-                console.log(response.status)
                 if (response.status === 200) {
                     setConfirmation(true)
                     console.log(confirmation)
@@ -53,7 +52,6 @@ const Contact = () => {
                 else {
                     setConfirmation(false)
                 }
-                console.log(confirmation)
                 setName('')
                 setEmail('')
                 setMessage('')
