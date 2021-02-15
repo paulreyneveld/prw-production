@@ -41,8 +41,8 @@ const Dictionary = () => {
             <label>Search definition:</label>
             <p>(courtesy of Merriam-Webster dictionary API)</p>
             <br />
-            <input type="text" value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} style={{marginRight: 5}} />
-            <Button variant="outline-secondary">Submit</Button>
+            <input type="text" value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} style={{marginRight: 5, marginBottom: 10 }} />
+            <Button variant="outline-secondary" type="submit">Submit</Button>
         </form>
         {displayDefinition()}
         </>
