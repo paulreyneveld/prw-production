@@ -1,6 +1,7 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
 
 const About = () => {
 
@@ -16,8 +17,8 @@ const About = () => {
 
     return (
         <Row>
-        <Col xs={9} className="gutterfix">
-
+        <Col xs={9}>
+            <Container>
             <h3>About, or how I came to be a developer</h3>
             <br />
             <p> Hello again! By now you know that I’m a web developer, but I guess you’re curious how I came to be one. 
@@ -56,8 +57,9 @@ const About = () => {
 
              <p>I see now that I took the long way around as I have returned to web development, but I’ve been fortunate to 
              learn so much in the process that I wouldn’t want this journey to have gone any other way. </p>
+             </Container>
         </Col>
-        <Col className="gutterfix">
+        <Col>
         <h6> Coding Efforts</h6>
         <ul className="sidebar-about-ul">
         <li className="sidebar-about-li"><span style={style} onClick={() => openInNewTab('http://www.github.com/paulreyneveld')}> GitHub </span></li>

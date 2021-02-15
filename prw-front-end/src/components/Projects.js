@@ -1,9 +1,12 @@
 import React from 'react'
-import { Col, Row, Image } from 'react-bootstrap'
 import groceryImage from '../images/grocery-app-screen.png'
 import quizAppImage from '../images/quiz-app-screen.png'
 import coursesAppImage from '../images/courses-app-screen.png'
 import wheelerImage from '../images/wheeler-screen.png'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import Image from 'react-bootstrap/Image'
 
 const Projects = () => {
 
@@ -19,9 +22,10 @@ const Projects = () => {
 
     return (
         <>
+        <Container>
         <p>Disclaimer: Please allow a few moments for individual projects to load. </p>
         <Row>
-        <Col className="gutterfix">
+        <Col>
                 <span style={style} onClick={() => openInNewTab('https://thproj10api.herokuapp.com/')}><Image style={{paddingBottom: 10}} src={coursesAppImage} /></span>
                 <p>This project was the culmination of my  Treehouse Techdegree experience. It consists of a frontend 
                 running React with state management through the Context API and a backend via Express. It is a fully functional course management tool. <br/>
@@ -60,6 +64,7 @@ const Projects = () => {
         <Col></Col>
         <Col></Col>
         </Row>
+        </Container>
         </>
     )
 }

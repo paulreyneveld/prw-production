@@ -31,7 +31,7 @@ const Header = (props) => {
         </Navbar>
 
         <Jumbotron className="bg-image">
-            <h1>Well, Hello world!</h1>
+            <h1>Well, Hello World!</h1>
             <p>
             Welcome to Paul Reinvents Wheels.</p>
             <p>

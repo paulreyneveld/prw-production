@@ -3,7 +3,9 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import WeatherAPI from './WeatherAPI'
 import CapitalsQuiz from './CapitalsQuiz'
+import Container from 'react-bootstrap/Container'
 import Dictionary from './Dictionary'
+
 
 const Home = () => {
 
@@ -24,8 +26,8 @@ const Home = () => {
     return (
         <>
         <Row>
-            <Col xs={9} className="gutterfix">
-
+            <Col xs={9} >
+                <Container>
                 <h3>My Contention</h3>
                 <br />
                 <h6>tl;dr.</h6>
@@ -52,8 +54,9 @@ const Home = () => {
                 study and take a holistic approach to understanding project development, which is to say that there 
                 are many commonalities across languages and frameworks, and I seek to take advantage of these commonalities 
                 for the purpose of rapidly building solutions.</p>
+                </Container>
             </Col>
-            <Col className="gutterfix">
+            <Col >
             <h5>Pandora's sidebar:</h5>
             {randomComponent()}
             </Col>
