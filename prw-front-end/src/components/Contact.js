@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import Container from 'react-bootstrap/Container'
 
 const Contact = () => {
 
@@ -59,7 +60,6 @@ const Contact = () => {
             })
             .catch(error => console.log(error))
     }
-    console.log(confirmation)
 
     const messageSent = () => {
         if (confirmation) {
@@ -70,6 +70,7 @@ const Contact = () => {
 
     return (
         <>
+        <Container>
         <p>Please feel free to contact me directly through the following form. Alternately, my contact
         information is available via my <span style={style} onClick={() => openInNewTab(process.env.PUBLIC_URL + '/resume.pdf')}>Resume</span>.</p>
 
@@ -108,6 +109,7 @@ const Contact = () => {
         </form>
         <br />
         {messageSent()}
+        </Container>
         </>
     )
 }

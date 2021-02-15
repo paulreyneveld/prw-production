@@ -55,7 +55,7 @@ const Projects = () => {
         </Col>
         </Row>
         <Row>
-        <Col className="gutterfix">
+        <Col>
         <span style={style} onClick={() => openInNewTab('http://www.wheelerswcd.org/')}><Image style={{paddingBottom: 10}} src={wheelerImage} /></span>
         <p>This is a very old project and was put together circa 2009. I can't say that I stand by the code at this point as I doubt
         the Drupal install that it's running on has been updated since it was put together in the first place. The project was built on a LAMP

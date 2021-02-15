@@ -17,7 +17,7 @@ const About = () => {
 
     return (
         <Row>
-        <Col xs={9}>
+        <Col xs="12" lg="9">
             <Container>
             <h3>About, or how I came to be a developer</h3>
             <br />

@@ -26,7 +26,7 @@ const Home = () => {
     return (
         <>
         <Row>
-            <Col xs={9} >
+            <Col xs="12" lg="9">
                 <Container>
                 <h3>My Contention</h3>
                 <br />
