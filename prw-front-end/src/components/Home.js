@@ -11,7 +11,7 @@ const Home = () => {
 
     const randomComponent = () => {
         const randomNum = Math.floor(Math.random() * 3)
-        switch(randomNum) {
+        switch(1) {
             case 0:
                 return <WeatherAPI />
             case 1:

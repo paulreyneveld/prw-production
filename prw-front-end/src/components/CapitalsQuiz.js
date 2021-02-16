@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import countryInfo from '../countryInfo.json'
 import Button from 'react-bootstrap/Button'
+import DropdownButton from 'react-bootstrap/DropdownButton'
+import Dropdown from 'react-bootstrap/Dropdown'
 
 const CapitalsQuiz = () => {
     
@@ -46,6 +48,9 @@ const CapitalsQuiz = () => {
     return (
         <>
         <h6>World Capital's Quiz</h6>
+        <DropdownButton title="Region">
+            <Dropdown.Item as="button">Carribean</Dropdown.Item>
+        </DropdownButton>
         <p>What is the capital of {answer.country}?</p>
         {
             countryList.map(country => 
