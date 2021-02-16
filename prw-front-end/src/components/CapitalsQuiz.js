@@ -49,6 +49,7 @@ const CapitalsQuiz = () => {
         <>
         <h6>World Capital's Quiz</h6>
         <DropdownButton title="Region">
+            <Dropdown.Item as="button">Worldwide</Dropdown.Item>
             <Dropdown.Item as="button">North America</Dropdown.Item>
             <Dropdown.Item as="button">Central America</Dropdown.Item>
             <Dropdown.Item as="button">South America</Dropdown.Item>
@@ -59,6 +60,7 @@ const CapitalsQuiz = () => {
             <Dropdown.Item as="button">Asian Steppes</Dropdown.Item>
             <Dropdown.Item as="button">Southeast Asia</Dropdown.Item>
             <Dropdown.Item as="button">Oceania</Dropdown.Item>
+            <Dropdown.Item as="button">Pacific Island Nations</Dropdown.Item>
         </DropdownButton>
         <p>What is the capital of {answer.country}?</p>
         {
