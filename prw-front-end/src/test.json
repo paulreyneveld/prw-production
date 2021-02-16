@@ -1,23 +1,23 @@
 [
     {
         "id": "0",
-        "country": "Afghanistan",
-        "city": "Kabul"
+        "country": "Canada",
+        "city": "Ottawa"
     },
     {
         "id": "1",
-        "country": "Albania",
-        "city": "Tirana"
+        "country": "United State",
+        "city": "Washington D.C."
     },
     {
         "id": "2",
-        "country": "Algeria",
-        "city": "Algiers"
+        "country": "Mexico",
+        "city": "Mexico City"
     },
     {
         "id": "3",
-        "country": "American Samoa",
-        "city": "Pago Pago"
+        "country": "Greenland",
+        "city": "Nuuk"
     },
     {
         "id": "4",
