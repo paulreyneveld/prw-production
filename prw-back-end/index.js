@@ -29,6 +29,8 @@ app.get('/dictionaryapi', (req, res) => {
     })
 })
 
+// GIT TEST
+
 app.post('/contact', async (req, res) => {
   const body = req.body
 
